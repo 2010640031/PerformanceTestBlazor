@@ -1,0 +1,46 @@
+@page "/AnimationPage"
+@using System.Diagnostics
+
+<PageTitle>Animation Page</PageTitle>
+
+<h1>FPS: @currentFps</h1>
+@for (int i = 0; i < 1000; i++)
+{
+<div class="container">
+    <div class="red-square"></div>
+    <div class="red-square"></div>
+    <div class="red-square"></div>
+    <div class="red-square"></div>
+    <div class="red-square"></div>
+</div>
+}
+}
+
+@code {
+    private double currentFps;
+    private DateTime lastTime = DateTime.Now;
+    private int frameCount = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        while (true)
+        {
+            await Task.Delay(1000); // Update FPS every second
+            CalculateFPS();
+        }
+    }
+    private void CalculateFPS()
+    {
+        DateTime now = DateTime.Now;
+        TimeSpan elapsed = now - lastTime;
+
+        if (elapsed.TotalSeconds >= 1) // Update FPS every second
+        {
+            currentFps = frameCount / elapsed.TotalSeconds;
+            frameCount = 0;
+            lastTime = now;
+        }
+
+        frameCount++;
+    }
+}

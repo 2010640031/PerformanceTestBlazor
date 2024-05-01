@@ -1,5 +1,6 @@
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/blazor.boot.json
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js
+/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Bogus.dll
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.11.a23ms51r0l.js
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/dotnet.wasm
@@ -266,6 +267,7 @@
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/System.Formats.Tar.dll.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/System.Formats.Asn1.dll.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll.gz
+/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Bogus.dll.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.Tracing.dll.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/System.Reflection.Extensions.dll.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/mscorlib.dll.gz
@@ -404,6 +406,7 @@
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/PerformanceTestBA.staticwebassets.runtime.json
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/PerformanceTestBA.dll
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/PerformanceTestBA.pdb
+/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/Bogus.dll
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/Microsoft.AspNetCore.Authorization.dll
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/Microsoft.AspNetCore.Components.dll
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Forms.dll
@@ -608,6 +611,7 @@
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/PerformanceTestBA.AssemblyInfo.cs
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/PerformanceTestBA.csproj.CoreCompileInputs.cache
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/PerformanceTestBA.MvcApplicationPartsAssemblyInfo.cache
+/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/build-gz/d5CUKGZp.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/build-gz/kCEyOlRc.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/build-gz/golG1sTd.gz
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/build-gz/v2tZSG8y.gz
@@ -826,3 +830,4 @@
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/refint/PerformanceTestBA.dll
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/PerformanceTestBA.pdb
 /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/ref/PerformanceTestBA.dll
+/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/scopedcss/Pages/AnimationPage.razor.rz.scp.css

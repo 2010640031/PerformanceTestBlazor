@@ -1,3 +1,39 @@
+/* /Pages/AnimationPage.razor.rz.scp.css */
+.container[b-m4ooxb9hrc] {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.red-square[b-m4ooxb9hrc] {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: move-square-b-m4ooxb9hrc 4s linear infinite, rotate-square-b-m4ooxb9hrc 4s linear infinite;
+}
+
+@keyframes move-square-b-m4ooxb9hrc {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 100px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes rotate-square-b-m4ooxb9hrc {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-d2c43sg0rx] {
     position: relative;

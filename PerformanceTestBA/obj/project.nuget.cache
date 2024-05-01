@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dwnp2N8aXBy5E3T1LZKpGqPpb0BgroRIz7u0ik/C96d+N+dncl/xdk1z7C/rf9aEJUSoGK1taovREx2ZYpgRKg==",
+  "dgSpecHash": "liQ5aYRzs7kb+cNBO2GVswPcl8iber5UfjYDNOHacalQXr/6V1Dg26mvB9wIP+6EqyXfldKFnnxqD2hlZRGF/Q==",
   "success": true,
   "projectFilePath": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/PerformanceTestBA.csproj",
   "expectedPackageFiles": [
+    "/Users/dominik.schuster/.nuget/packages/bogus/35.5.1/bogus.35.5.1.nupkg.sha512",
     "/Users/dominik.schuster/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "/Users/dominik.schuster/.nuget/packages/microsoft.aspnetcore.components/7.0.5/microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
     "/Users/dominik.schuster/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.5/microsoft.aspnetcore.components.analyzers.7.0.5.nupkg.sha512",

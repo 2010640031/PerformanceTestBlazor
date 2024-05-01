@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Bogus.dll": "sha256-J8tEjaRqKPqpDvXqBXy8OEDIR1kCGL8o+dP4MJQb38Q=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-\/EkWRHMHBhfvvlx5hLVtXGPm8+Gyp4WkPiKKiiJIrqQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-SvjxqyTqc68zPsYivPRkvjKRhUg5zYufzqwGNS83bwg=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-eoQ2CgfBGkvbK4QUMBgFDPIBqJem+g8247Fb3ZmnmCI=",
@@ -198,13 +199,13 @@
       "mscorlib.dll": "sha256-X+o60j6cZnlI2vFFjdH81yYTAxx13\/wqnNSWTKbDsyw=",
       "netstandard.dll": "sha256-Cr6slBs\/R2v2t\/vecFDHbQHakbEhar0adYu0YemwiXI=",
       "System.Private.CoreLib.dll": "sha256-dDw5nzGJhW1jOjGfSJcs\/Mi4KQ+DZygXnoK+vJ+jHyk=",
-      "PerformanceTestBA.dll": "sha256-PGIQZ4BmNhZ48GxsWoTxuth1ARRQASpVv6OfIpTOU\/A="
+      "PerformanceTestBA.dll": "sha256-g7MbPfSVcWO3Hz5+oqpcrkJo4YvVKcPglrSKbrStjt8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "PerformanceTestBA.pdb": "sha256-F7Y8OPW2Nz9ZEA1I5\/aNRWkj8BA1XA\/WeGppGatLvHs="
+      "PerformanceTestBA.pdb": "sha256-wkYA1JdjC\/qxiJjeAKuEXW+xEpG3\/pvU+KEw2Y6wpZg="
     },
     "runtime": {
       "dotnet.7.0.11.a23ms51r0l.js": "sha256-RtIVigdAD1mUvR4pxoKyD8kcQgw4INP81v+PVSqkeQY=",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nyzFJG7GvcjxQMQXFEeoeJEc9KFYJjCl3RgwtxT4QEM=",
+  "Hash": "DQ6mgZj1wKAlsUNDe1V7Dwrqsr1zosDJNG0tiV0g9ec=",
   "Source": "PerformanceTestBA",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dominik.schuster/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.5/build/net7.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Bogus.dll",
+      "SourceId": "PerformanceTestBA",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Bogus.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/dominik.schuster/.nuget/packages/bogus/35.5.1/lib/net6.0/Bogus.dll"
     },
     {
       "Identity": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.11.a23ms51r0l.js",
@@ -4571,6 +4588,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
+      "Identity": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/build-gz/d5CUKGZp.gz",
+      "SourceId": "PerformanceTestBA",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Bogus.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Bogus.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/bin/Debug/net7.0/wwwroot/_framework/Bogus.dll"
     },
     {
       "Identity": "/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/obj/Debug/net7.0/build-gz/da+1r+yu.gz",
