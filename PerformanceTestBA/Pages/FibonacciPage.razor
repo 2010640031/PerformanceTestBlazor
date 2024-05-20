@@ -1,0 +1,33 @@
+@page "/fibonacciPage"
+
+<PageTitle>Fibonacci-Page</PageTitle>
+
+<button class="btn" id="fibonaccibtn" @onclick="CalculateFibonacci">Calculate Fibonacci</button>
+
+@if (_result != null)
+{
+    <p id="fibonacciresult">Fibonacci number at position 100,000,000 is: @_result</p>
+}
+
+@code {
+    private long? _result;
+
+    private void CalculateFibonacci()
+    {
+        _result = Fibonacci(100000000);
+    }
+
+    private static long Fibonacci(long n)
+    {
+        if (n < 2) return n;
+
+        long a = 0, b = 1;
+        for (var i = 2; i <= n; i++)
+        {
+            var temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+}

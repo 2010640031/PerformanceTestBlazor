@@ -10,29 +10,22 @@ public partial class ListPage
     public ICarService CarService { get; set; } = null!; 
     
     private List<Car>? _cars;
-    private bool _sortAscendingYear;
     private bool _sortAscendingBrand;
+    private bool _allColorsSet;
+    private bool _carsFilteredByBrand;
 
     protected override async Task OnInitializedAsync()
     {
         _cars = await CarService.GetAll();
     }
-    
-    private void SortByReleaseYear()
-    {
-        if (_cars == null) return;
-        
-        _cars = _sortAscendingYear ? _cars.OrderBy(car => car.ReleaseYear).ToList() : _cars.OrderByDescending(car => car.ReleaseYear).ToList();
 
-        _sortAscendingYear = !_sortAscendingYear;
-    }
-    
     private void ToggleSortByBrand()
     {
         if (_cars == null) return;
         _cars = _sortAscendingBrand ? _cars.OrderBy(car => car.Brand).ToList() : _cars.OrderByDescending(car => car.Brand).ToList();
 
         _sortAscendingBrand = !_sortAscendingBrand;
+        _carsFilteredByBrand = !_carsFilteredByBrand;
     }
     
     private void SetAllColorsToRed()
@@ -45,5 +38,6 @@ public partial class ListPage
         }
 
         StateHasChanged();
+        _allColorsSet = true;
     }
 }

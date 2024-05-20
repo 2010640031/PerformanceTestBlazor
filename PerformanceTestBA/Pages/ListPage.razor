@@ -6,28 +6,37 @@
 
 @if (_cars.Any())
 {
-    <button @onclick="SetAllColorsToRed">Set All Colors to Red</button>
+    <div>
+        <button id="setcolorredbtn" @onclick="SetAllColorsToRed">Set All Colors to Red</button>
+        @if (_allColorsSet)
+        {
+            <p>colors done</p>
+        }
+        @if (_carsFilteredByBrand)
+        {
+        <p>filtering done</p>
+        }
+    </div>
 <table class="table">
     <thead>
     <tr>
         <th>Model</th>
-        <th><button @onclick="() => ToggleSortByBrand()">Brand</button></th>
+        <th><button id="togglebrandbtn" @onclick="() => ToggleSortByBrand()">Brand</button></th>
         <th>Color</th>
         <th>Fuel Type</th>
-        <th>@* Added clickable sorting *@<button @onclick="() => SortByReleaseYear()">Release Year</button></th>
+        <th>Release Year</th>
     </tr>
     </thead>
     <tbody>
-    @foreach (var car in _cars)
-    {
+    <Virtualize Items="@_cars">
         <tr>
-            <td>@car.Model</td>
-            <td>@car.Brand</td>
-            <td>@car.Color</td>
-            <td>@car.FuelType</td>
-            <td>@car.ReleaseYear</td>
+            <td>@context.Model</td>
+            <td>@context.Brand</td>
+            <td>@context.Color</td>
+            <td>@context.FuelType</td>
+            <td>@context.ReleaseYear</td>
         </tr>
-    }
+    </Virtualize>
     </tbody>
 </table>
 }

@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = PerformanceTestBA
 build_property.RootNamespace = PerformanceTestBA
-build_property.ProjectDir = /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/
+build_property.ProjectDir = /Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA
+build_property.MSBuildProjectDirectory = /Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/App.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/Pages/Index.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/Pages/ListPage.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/Pages/ListPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/_Imports.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/Pages/AnimationPage.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/Pages/AnimationPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQW5pbWF0aW9uUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-m4ooxb9hrc
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/Shared/MainLayout.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d2c43sg0rx
 
-[/Users/dominik.schuster/Desktop/Bachelorarbeit 2024/Projects/PerformanceTestBA/PerformanceTestBA/Shared/NavMenu.razor]
+[/Users/dominik.schuster/Desktop/Bachelorarbeit_2024/Projects/PerformanceTestBA/PerformanceTestBA/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ki0r7gmbn6
