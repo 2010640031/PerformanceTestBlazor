@@ -1,16 +1,16 @@
-@page "/fibonacciPage"
+@page "/primePage"
 
-<h3>Find the 10000th Prime Number</h3>
+<h3>Find the 300000th Prime Number</h3>
 
-<button id="fibonaccibtn" @onclick="FindPrime">Find 300000th Prime</button>
+<button id="primebtn" @onclick="FindPrime">Find 300000th Prime</button>
 
 @if(primeFound) {
-<p id="fibonacciresult">The 300000th prime number is: @nthPrime</p>
+<p id="primeresult">The 300000th prime number is: @nthPrime</p>
 }
 
 @code {
-private bool primeFound = false;
-private int nthPrime = 0;
+private bool primeFound;
+private int nthPrime;
 
 private void FindPrime()
 {
