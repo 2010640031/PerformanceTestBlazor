@@ -30,6 +30,6 @@ public class CarService : ICarService
             .RuleFor(c => c.FuelType, f => f.PickRandom<FuelTypeEnum>())
             .RuleFor(c => c.ReleaseYear, f => f.Random.Int(1990, 2024));
 
-        return Task.FromResult(carFaker.Generate(100000));
+        return Task.FromResult(carFaker.Generate(10000));
     }
 }

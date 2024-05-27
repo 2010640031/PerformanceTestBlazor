@@ -28,15 +28,15 @@
     </tr>
     </thead>
     <tbody>
-    <Virtualize Items="@_cars">
+   @foreach (var car in _cars){
         <tr>
-            <td>@context.Model</td>
-            <td>@context.Brand</td>
-            <td>@context.Color</td>
-            <td>@context.FuelType</td>
-            <td>@context.ReleaseYear</td>
+            <td>@car.Model</td>
+            <td>@car.Brand</td>
+            <td>@car.Color</td>
+            <td>@car.FuelType</td>
+            <td>@car.ReleaseYear</td>
         </tr>
-    </Virtualize>
+   }
     </tbody>
 </table>
 }
