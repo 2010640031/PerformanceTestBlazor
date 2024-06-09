@@ -1,0 +1,49 @@
+﻿@page "/listPage1000"
+
+<PageTitle>List Page</PageTitle>
+
+<h1>List Page</h1>
+
+<button id="getmorecars100btn" @onclick="() => GetMoreCars(100)">Get 100 more Cars</button>
+<button id="getmorecars1000btn" @onclick="() => GetMoreCars(1000)">Get 1000 more Cars</button>
+<button id="getmorecars10000btn" @onclick="() => GetMoreCars(10000)">Get 10000 more Cars</button>
+
+<button id="deletealladdedcarsbtn" @onclick="DeleteAddedCarsWith">Delete All Added Cars</button>
+
+@if (_cars.Any())
+{
+    <div id="donediv">Loading-Done</div>
+    <div>
+        <button id="setcolorredbtn" @onclick="SetAllColorsToRed">Set All Colors to Red</button>
+        @if (_allColorsSet)
+        {
+            <p>colors done</p>
+        }
+        @if (_carsFilteredByBrand)
+        {
+        <p>filtering done</p>
+        }
+    </div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Model</th>
+        <th><button id="togglebrandbtn" @onclick="() => ToggleSortByBrand()">Brand</button></th>
+        <th>Color</th>
+        <th>Fuel Type</th>
+        <th>Release Year</th>
+    </tr>
+    </thead>
+    <tbody>
+   @foreach (var car in _cars){
+        <tr>
+            <td>@car.Model</td>
+            <td>@car.Brand</td>
+            <td>@car.Color</td>
+            <td>@car.FuelType</td>
+            <td>@car.ReleaseYear</td>
+        </tr>
+   }
+    </tbody>
+</table>
+}

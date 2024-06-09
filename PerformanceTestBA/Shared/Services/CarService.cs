@@ -5,12 +5,12 @@ namespace PerformanceTestBA.Shared.Services;
 
 public class CarService : ICarService
 {
-    public async Task<List<Car>?> GetAll()
+    public async Task<List<Car>> GetCars(int amount)
     {
-        return await GenerateCars();
+        return await GenerateCars(amount);
     }
 
-    private Task<List<Car>> GenerateCars()
+    private Task<List<Car>> GenerateCars(int take)
     {
         var brands = new[] { "Toyota", "Ford", "BMW", "Tesla", "Chevrolet", "Honda" };
         var colors = new[] { "Red", "Blue", "Black", "White", "Silver", "Green" };
@@ -30,6 +30,6 @@ public class CarService : ICarService
             .RuleFor(c => c.FuelType, f => f.PickRandom<FuelTypeEnum>())
             .RuleFor(c => c.ReleaseYear, f => f.Random.Int(1990, 2024));
 
-        return Task.FromResult(carFaker.Generate(10000));
+        return Task.FromResult(carFaker.Generate(take));
     }
 }

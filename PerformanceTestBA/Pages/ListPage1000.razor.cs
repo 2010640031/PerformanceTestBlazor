@@ -4,7 +4,7 @@ using PerformanceTestBA.Shared.Services;
 
 namespace PerformanceTestBA.Pages;
 
-public partial class ListPage
+public partial class ListPage1000
 {
     [Inject]
     public ICarService CarService { get; set; } = null!; 
@@ -13,10 +13,11 @@ public partial class ListPage
     private bool _sortAscendingBrand;
     private bool _allColorsSet;
     private bool _carsFilteredByBrand;
+    private int _carsAmount;
 
     protected override async Task OnInitializedAsync()
     {
-        _cars = await CarService.GetAll();
+        _cars = await CarService.GetCars(1000);
     }
 
     private void ToggleSortByBrand()
@@ -34,10 +35,23 @@ public partial class ListPage
         
         foreach (var car in _cars)
         {
-            car.Color = "Chroma";
+            car.Color = "Red";
         }
 
         StateHasChanged();
         _allColorsSet = true;
+    }
+    
+    private async Task GetMoreCars(int amount)
+    {
+        var moreCars = await CarService.GetCars(amount);
+        _cars?.AddRange(moreCars);
+        _carsAmount += amount;
+    }
+    
+    private void DeleteAddedCarsWith()
+    {
+        _cars?.RemoveRange(_cars.Count - _carsAmount, _carsAmount);
+        _carsAmount = 0;
     }
 }
